@@ -1,0 +1,4 @@
+{"rooms":[],"clients":[{"clientId":12},{"clientId":3},{"clientId":69}],"bookings":[]}{"rooms":[],"clients":[{"clientId":43}],"bookings":[]}
+{"rooms":[{"roomId":1}],"clients":[{"clientId":43}],"bookings":[]}
+{"rooms":[{"roomId":1},{"roomId":2}],"clients":[{"clientId":43}],"bookings":[]}
+{"rooms":[{"roomId":1},{"roomId":2},2],"clients":[{"clientId":43},43],"bookings":["243"]}
