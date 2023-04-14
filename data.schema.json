@@ -9,16 +9,36 @@
         {"name": "clientId", "type": "int"}
       ]
     },
+    "checkin": {
+      "columns": [
+        {"name": "checkin", "type": "string"}
+      ]
+    },
+    "checkintime": {
+      "columns": [
+        {"name": "checkintime", "type": "string"}
+      ]
+    },
+    "checkout": {
+      "columns": [
+        {"name": "checkout", "type": "string"}
+      ]
+    },
+    "checkouttime": {
+      "columns": [
+        {"name": "checkouttime", "type": "string"}
+      ]
+    },
     "bookings": {
       "columns": [
         {"name": "bookingId", "type": "int"},
         {"name": "clientId", "type": "int", "foreign_key": {"table": "clients", "column": "clientId"}},
         {"name": "roomId", "type": "int", "foreign_key": {"table": "rooms", "column": "roomId"}},
-        {"name": "checkin", "type": "int"},
-        {"name": "checkout", "type": "int"},
-        {"name": "checkouttime", "type": "int"}
+        {"name": "checkin", "type": "string", "foreign_key": {"table": "checkin", "column": "checkin"}},
+        {"name": "checkintime", "type": "string", "foreign_key": {"table": "checkintime", "column": "checkintime"}},
+        {"name": "checkout", "type": "string", "foreign_key": {"table": "checkout", "column": "checkout"}},
+        {"name": "checkouttime", "type": "string", "foreign_key": {"table": "checkouttime", "column": "checkouttime"}}
       ]
     }
-
   }
   

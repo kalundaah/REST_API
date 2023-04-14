@@ -2,3 +2,16 @@
 {"rooms":[{"roomId":1}],"clients":[{"clientId":43}],"bookings":[]}
 {"rooms":[{"roomId":1},{"roomId":2}],"clients":[{"clientId":43}],"bookings":[]}
 {"rooms":[{"roomId":1},{"roomId":2},2],"clients":[{"clientId":43},43],"bookings":["243"]}
+{"rooms":[],"clients":[{"clientId":20002121}],"bookings":[]}
+{"rooms":[{"roomId":20002121}],"clients":[{"clientId":20002121}],"bookings":[]}
+{"rooms":[],"clients":[],"checkin":[{"checkin":1213412}],"checkout":[],"checkouttime":[],"bookings":[]}
+{"rooms":[],"clients":[],"checkin":[{"checkin":1213412}],"checkout":[],"checkouttime":[],"bookings":[]}
+{"rooms":[],"clients":[],"checkin":[{"checkin":1213412},{"clientId":1213412}],"checkout":[],"checkouttime":[],"bookings":[]}
+{"rooms":[131],"clients":[32],"checkin":[{"checkin":1213412},{"clientId":1213412}],"checkout":[],"checkouttime":[],"bookings":["13132"]}
+{"rooms":[2],"clients":[12],"bookings":["212"]}
+{"rooms":[2],"clients":[12],"checkin":["2022-04-14"],"checkout":["2022-04-16"],"checkouttime":["13:00"],"bookings":["212"]}
+{"rooms":[7],"clients":[30],"checkin":[null],"checkintime":[null],"checkout":["2022-04-21"],"checkouttime":["18:00"],"bookings":["730"]}
+{"rooms":[7],"clients":[30],"checkin":["2023-4-14"],"checkintime":[null],"checkout":["2022-04-21"],"checkouttime":["18:00"],"bookings":["730"]}
+{"rooms":[9],"clients":[36],"checkin":["2023-4-14"],"checkintime":["10:38:31"],"checkout":["2022-04-30"],"checkouttime":["15:00"],"bookings":["936"]}
+{"rooms":[32],"clients":[64],"checkin":["2023-4-14"],"checkintime":["10:41:41"],"checkout":["2022-05-2"],"checkouttime":["13:00"],"bookings":["3264"]}
+{"rooms":[32,3],"clients":[64,32],"checkin":["2023-4-14","2023-4-14"],"checkintime":["10:41:41","10:50:11"],"checkout":["2022-05-2","2022-05-7"],"checkouttime":["13:00","16:00"],"bookings":["3264","332"]}
